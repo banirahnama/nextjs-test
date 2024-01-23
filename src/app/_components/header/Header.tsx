@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./header.module.scss";
 
 export const Header = () => {
@@ -5,8 +6,9 @@ export const Header = () => {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.logoContainer}>
-          <a href="/">
-            <h2>My Bank</h2>
+          <a href="/" className="is-flex is-align-items-center">
+            <Image src="/bank-logo.jpg" width="75" height="75" alt="Piggybank Plc logo" />
+            <h2 className="is-size-3" style={{ color: "#038197"}}>Piggybank Plc</h2>
           </a>
         </div>
         <div className={styles.topNavigationContainer}>
@@ -24,8 +26,8 @@ export const Header = () => {
               nav4
             </a>
           </div>
-          <a href="#" className={`${styles.button} ${styles.navLink}`}>
-            Varaa Aika
+          <a href="/sca" className={`${styles.button} ${styles.navLink}`}>
+            Portal
           </a>
         </div>
       </nav>
