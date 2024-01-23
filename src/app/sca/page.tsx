@@ -1,5 +1,8 @@
 import Image from "next/image"
 import styles from './styles.module.scss'
+import VarmennekorttiImg from '../_images/DVV-logo.png'
+import MobiiliVarmenneImg from '../_images/mv_70x70.png'
+import BankLogo from '../_images/bank-logo.jpg'
 
 export default function Page() {
   return (
@@ -10,7 +13,7 @@ export default function Page() {
         <a href="portal" className={styles.bankLink}>
           <div className="column p-5 is-flex is-flex-direction-column is-align-items-center">
             <figure className="image is-96x96 mb-3">
-              <Image src="/DVV-logo.png" alt="Varmennekortti" width="128" height="128" style={{ maxHeight: "128px" }} />
+              <Image src={VarmennekorttiImg} alt="Varmennekortti" width="128" height="128" style={{ maxHeight: "128px" }} />
             </figure>
             <figcaption>Varmennekortti</figcaption>
           </div>
@@ -18,7 +21,7 @@ export default function Page() {
         <a href="/portal" className={styles.bankLink}>
           <div className="column p-5 is-flex is-flex-direction-column is-align-items-center">
             <figure className="image is-96x96 mb-3">
-              <Image src="/mv_70x70.png" alt="Varmennekortti" width="128" height="128" />
+              <Image src={MobiiliVarmenneImg} alt="Mobiilivarmenne" width="128" height="128" />
             </figure>
             Mobiilivarmenne
           </div>
@@ -26,7 +29,7 @@ export default function Page() {
         <a href="/portal" className={styles.bankLink}>
           <div className="column p-5 is-flex is-flex-direction-column is-align-items-center">
             <figure className="image is-96x96 mb-3">
-              <Image src="/bank-logo.jpg" alt="Varmennekortti" width="128" height="128" />
+              <Image src={BankLogo} alt="Varmennekortti" width="128" height="128" />
             </figure>
             Piggybank Plc
           </div>
