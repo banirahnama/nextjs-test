@@ -8,7 +8,7 @@ export const Header = () => {
       <nav className={styles.nav}>
         <div className={styles.logoContainer}>
           <a href="/" className="is-flex is-align-items-center">
-            <Image src={BankLogo} width="75" height="75" alt="Piggybank Plc logo" />
+            <img src={BankLogo} width="75" height="75" alt="Piggybank Plc logo" />
             <h2 className="is-size-3" style={{ color: "#038197"}}>Piggybank Plc</h2>
           </a>
         </div>

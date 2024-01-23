@@ -11,7 +11,7 @@ export default function Page() {
         <a href="portal" className={styles.bankLink}>
           <div className="column p-5 is-flex is-flex-direction-column is-align-items-center">
             <figure className="image is-96x96 mb-3">
-              <Image src={VarmennekorttiImg} alt="Varmennekortti" width="128" height="128" style={{ maxHeight: "128px" }} />
+              <img src={VarmennekorttiImg} alt="Varmennekortti" width="128" height="128" style={{ maxHeight: "128px" }} />
             </figure>
             <figcaption>Varmennekortti</figcaption>
           </div>
@@ -19,7 +19,7 @@ export default function Page() {
         <a href="/portal" className={styles.bankLink}>
           <div className="column p-5 is-flex is-flex-direction-column is-align-items-center">
             <figure className="image is-96x96 mb-3">
-              <Image src={MobiilivarmenneImg} alt="Mobiilivarmenne" width="128" height="128" />
+              <img src={MobiilivarmenneImg} alt="Mobiilivarmenne" width="128" height="128" />
             </figure>
             Mobiilivarmenne
           </div>
@@ -27,7 +27,7 @@ export default function Page() {
         <a href="/portal" className={styles.bankLink}>
           <div className="column p-5 is-flex is-flex-direction-column is-align-items-center">
             <figure className="image is-96x96 mb-3">
-              <Image src={BankLogo} alt="Varmennekortti" width="128" height="128" />
+              <img src={BankLogo} alt="Varmennekortti" width="128" height="128" />
             </figure>
             Piggybank Plc
           </div>
