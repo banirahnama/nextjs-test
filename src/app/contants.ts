@@ -1,0 +1,3 @@
+export const MobiilivarmenneImg = "https://www.dropbox.com/scl/fi/okpe0eqlpkbuv8l10x3us/mv_70x70.png?rlkey=b9u0y4li4msixg8aiie2lcatj&raw=1"
+export const VarmennekorttiImg = "https://www.dropbox.com/scl/fi/c2eumssj4bflvhwdbzhyy/DVV-logo.png?rlkey=lhojkp2cjtv4byychdlwcr1pz&raw=1"
+export const BankLogo = "https://www.dropbox.com/scl/fi/paba6cej1dkkbkx2h5prz/bank-logo.jpg?rlkey=aldpoicqo0skp65mwpwcsf6x4&raw=1"

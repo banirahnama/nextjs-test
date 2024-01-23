@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./header.module.scss";
+import { BankLogo } from "@/app/contants";
 
 export const Header = () => {
   return (
@@ -7,7 +8,7 @@ export const Header = () => {
       <nav className={styles.nav}>
         <div className={styles.logoContainer}>
           <a href="/" className="is-flex is-align-items-center">
-            <Image src="/bank-logo.jpg" width="75" height="75" alt="Piggybank Plc logo" />
+            <Image src={BankLogo} width="75" height="75" alt="Piggybank Plc logo" />
             <h2 className="is-size-3" style={{ color: "#038197"}}>Piggybank Plc</h2>
           </a>
         </div>
